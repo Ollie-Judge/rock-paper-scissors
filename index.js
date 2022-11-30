@@ -1,1 +1,0 @@
-alert("Rock, Paper, Scissors, type your choice:");
