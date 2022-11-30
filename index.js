@@ -10,3 +10,7 @@ let getComputerChoice = () => {
 }
 
 getComputerChoice();
+
+let playerSelection = window.prompt("pick a number between 1 and 3");
+
+console.log(playerSelection);
