@@ -4,3 +4,9 @@ const generateRandomNumberBetween1and3 = () => {
 }
 
 generateRandomNumberBetween1and3();
+
+let getComputerChoice = () => {
+    generateRandomNumberBetween1and3();
+}
+
+getComputerChoice();
