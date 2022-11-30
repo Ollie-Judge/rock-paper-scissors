@@ -11,13 +11,22 @@ let getComputerChoice = () => {
 
 getComputerChoice();
 
-
-let playerSelection = window.prompt("Type a number between 1 and 3");
+let playerSelection = window.prompt("Type a number between one and three");
 
 console.log(playerSelection);
 
-if (playerSelection == 1 && getComputerChoice == 2 || playerSelection == 2 && getComputerChoice == 1 || playerSelection == 3 && getComputerChoice == 2) {
-    return document.getElementById("result").innerHTML = "You Win!";
-} else {
-    return document.getElementById("result").innerHTML = "You Loose!";
+let checkResult = () => {
+    var win = document.getElementById("result").innerHTML = "You Win!";
+    var draw = document.getElementById("result").innerHTML = "Draw!";
+    var loose = document.getElementById("result").innerHTML = "You Loose!";
+
+    if (playerSelection == 1 && getComputerChoice == 2 || playerSelection == 2 && getComputerChoice == 1 || playerSelection == 3 && getComputerChoice == 2) {
+        return win;
+    } if (playerSelection == getComputerChoice) {
+        return draw;
+    } else {
+        return loose;
+    }
 }
+
+console.log(checkResult());
