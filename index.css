@@ -9,6 +9,27 @@ h1 {
 }
 
 #choiceContainer {
-    width: 75%;
+    width: 100%;
     margin: auto;
+}
+
+#rock {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+  }
+  
+#paper {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+  }
+
+#scissors {
+    width: 30%;
+    float: left;
+  }
+
+img {
+    width: 40%;
 }
