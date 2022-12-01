@@ -9,11 +9,13 @@ console.log(`Player generated number is ${playerSelection}`);
 let checkResult = (playerSelection, randomNumber) => {
     if (playerSelection == 1 && randomNumber == 2 || playerSelection == 2 && randomNumber == 1 || playerSelection == 3 && randomNumber == 2) {
         return document.getElementById("result").innerHTML = "You Win!";
-    } if (playerSelection === randomNumber) {
+    } else if (playerSelection == randomNumber) {
         return document.getElementById("result").innerHTML = "Draw!";
     } else {
         return document.getElementById("result").innerHTML = "You Loose!";
     }
 }
 
-console.log(checkResult());
+checkResult(playerSelection, randomNumber);
+
+console.log(checkResult(playerSelection, randomNumber));

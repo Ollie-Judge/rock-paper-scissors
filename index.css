@@ -30,6 +30,10 @@ h1 {
     float: left;
   }
 
+#resultContainer {
+    margin: auto;
+}
+
 i {
     width: 100px;
 }
