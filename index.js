@@ -2,10 +2,25 @@ let randomNumber = Math.ceil(Math.random() * 3);
 
 console.log(`Randomly generate number is ${randomNumber}`);
 
-let playerSelection = window.prompt("Type a number between one and three");
+//let playerSelection = window.prompt("Type a number between one and three");
 
-let divClick = () => {
-    console.log("works");
+let playerSelection;
+
+let rock = 1;
+let paper = 2;
+let scissors = 3;
+let error = "there was an error";
+
+let divClick = (rock, paper, scissors) => {
+    if (rock) {
+        playerSelection = rock;
+    } else if (paper) {
+        playerSelection = paper;
+    } else if (scissors) {
+        playerSelection = scissors;
+    } else {
+        return error;
+    }
 }
 
 console.log(`Player generated number is ${playerSelection}`);
