@@ -4,6 +4,10 @@ console.log(`Randomly generate number is ${randomNumber}`);
 
 let playerSelection = window.prompt("Type a number between one and three");
 
+let divClick = () => {
+    console.log("works");
+}
+
 console.log(`Player generated number is ${playerSelection}`);
 
 let checkResult = (playerSelection, randomNumber) => {
