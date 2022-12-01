@@ -31,7 +31,8 @@ h1 {
   }
 
 #resultContainer {
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
 i {
@@ -39,6 +40,23 @@ i {
 }
 
 #playAgainContainer {
-    margin: auto;
-    display:flex;
+    width: 100%;
+    text-align: center;
 }
+
+#reloadButton {
+    margin: 50px;
+    padding: 25px;
+    background-color: rgb(0,128,0);
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+}
+
+#reloadButton:hover {
+    background-color: rgb(0,128,0, 0.5);
+}
+
+#reloadButton:active {
+    transform: translateY(2px);
+  }
