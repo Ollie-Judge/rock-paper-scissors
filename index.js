@@ -19,3 +19,7 @@ let checkResult = (playerSelection, randomNumber) => {
 checkResult(playerSelection, randomNumber);
 
 console.log(checkResult(playerSelection, randomNumber));
+
+const reload = () => {
+    location.reload();  
+}
