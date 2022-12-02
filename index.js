@@ -1,5 +1,10 @@
 let playerSelection = window.prompt("Type a number between one and three");
 
+let randomNumber = Math.ceil(Math.random() * 3);
+
+
+console.log(`Randomly generated number is ${randomNumber}`);
+
 /*let playerSelection;
 
 let rockClick = (playerSelection) => {
