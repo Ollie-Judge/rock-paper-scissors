@@ -1,4 +1,4 @@
-//let playerSelection = window.prompt("Type a number between one and three");
+let playerSelection = window.prompt("Type a number between one and three");
 
 
 /*let divClick = () => {
