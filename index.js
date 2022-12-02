@@ -1,28 +1,26 @@
-let randomNumber = Math.ceil(Math.random() * 3);
+//let playerSelection = window.prompt("Type a number between one and three");
 
-console.log(`Randomly generate number is ${randomNumber}`);
 
-let playerSelection = window.prompt("Type a number between one and three");
+/*let divClick = () => {
 
-/*let playerSelection;
+    let randomNumber = Math.ceil(Math.random() * 3);
 
-let rock = 1;
-let paper = 2;
-let scissors = 3;
-let error = "there was an error";
 
-let divClick = (rock, paper, scissors) => {
-    if (rock) {
-        playerSelection = rock;
-    } else if (paper) {
-        playerSelection = paper;
-    } else if (scissors) {
-        playerSelection = scissors;
+    console.log(`Randomly generated number is ${randomNumber}`);
+
+    if(document.getElementById('rock')) {
+        playerSelection = 1;
+       return console.log(`Player generated number is ${playerSelection}`);
+    } else if (document.getElementById('paper')) {
+        playerSelection = 2;
+        return console.log(`Player generated number is ${playerSelection}`);
+    } else if (document.getElementById('scissors')){
+        playerSelection = 3;
+        return console.log(`Player generated number is ${playerSelection}`);
     } else {
-        return error;
+        return "error";
     }
-}
-*/
+}*/
 
 console.log(`Player generated number is ${playerSelection}`);
 

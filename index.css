@@ -19,17 +19,16 @@ h1 {
     margin: 100px auto;
 }
 
-#rock {
-    width: 30%;
-  }
-  
-#paper {
+#rpsDiv {
     width: 30%;
   }
 
-#scissors {
-    width: 30%;
-  }
+.rpsButton {
+    padding: 25px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 25px;
+}
 
 #resultContainer {
     width: 100%;
